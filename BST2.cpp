@@ -113,7 +113,7 @@ public:
 		}
 		else
 		{
-			current = current->left;
+			findmin(current->left);
 		}
 	}
 	void rep(int a,int b)
